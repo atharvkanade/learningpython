@@ -1,7 +1,5 @@
-# Area of circle #
-
-r = float(input("Enter a radius of a circle :"))
-
-area = 3.14 * (r ** 2)
-
-print("Area of circle is ", area)
+# Area of circle  using function#
+def area(r):
+ area = 3.14 * (r ** 2)
+ return area
+print("Area of circle is ", area(7))
